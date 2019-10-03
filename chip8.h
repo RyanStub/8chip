@@ -41,6 +41,8 @@ public:
 
 
 private:
+    void fetch();
+    void decode();
 
 
 };
