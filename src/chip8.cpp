@@ -1,4 +1,4 @@
-#include "chip8.h"
+#include "../include/chip8.hpp"
 #include <array>
 #include <iostream>
 
@@ -297,19 +297,14 @@ void Chip8::decode()
         }
          case 0xE000:
         {
-            
+              
         }
         case 0xF000:
         {
             
         }
-         
-
-
         
-    }
-
-
+   }
 }
 
 
